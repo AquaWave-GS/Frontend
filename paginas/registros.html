@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registros | AquaWave</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="/img/logo.jfif" type="image/x-icon">
+    <script src="/js/main.js"></script>
+</head>
+<body>
+    <header style="background-image: url(../img/registro.jpeg)">
+        <div class="container">
+          <nav>
+            <a href="../paginas/sobre.html" class="logo">AquaWave</a>
+            <ul class="navegacao">
+              <li><a href="../index.html">Home</a></li>
+              <li><a href="../paginas/sobre.html">Sobre</a></li>
+              <li><a href="../paginas/animais.html">Animais</a></li>
+              <li><a href="../paginas/poluicao.html">Poluição</a></li>
+              <li><a href="../paginas/ong.html">ONGS</a></li>
+              <li><a href="../paginas/registros.html">Registros</a></li>
+              <li><a href="../paginas/contato.html">Contato</a></li>
+            </ul>
+          </nav>
+          </nav>
+        </div>
+        <section class="banner">
+          <div class="container">
+            <div class="banner-text">
+              <h1>Registre e ajude o Mar!</h1>
+            </div>
+          </div>
+        </section>
+      </header>
+    <main>
+        <section class="registro">
+            <div class="container">
+                <h2>Resgistrar eventos</h2>
+                <p>Nós ajude a salvar os mares!  Registre aqui algum problema relacionado a poluição que tenha presenciado em qualquer região do planeta relacionado ao mar!  Pode ser tanto poluição quando animais sendo afetados por tal.</p> 
+                <form id="infoForm">
+                    <label for="name">Nome: (Informar nome ou sobrenome ou preencher com "Anonimo")</label>
+                    <input type="text" id="name" required>
+    
+                    <label for="description">Descrição: (Detalhar da seguinte forma: Local | Hora | Dia/mes/ano | Uma breve descrição sobre o que você presenciou.)</label>
+                    <textarea id="description" required></textarea>
+    
+                    <label for="image">Imagem/Vídeo (Arquivo):</label>
+                    <input type="file" id="image" accept="image/*" required>
+    
+                    <button type="submit">Adicionar!</button>
+                </form>
+            </div>
+        </section>
+        <section class="display-section">
+            <div class="container">
+                <h2>Últimos registros de usuários!</h2>
+                <div id="infoContainer"></div>
+            </div>
+        </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Ajude Nosso Oceano!</h3>
+          <p>
+            O AquaWave é dedicado a alertar, educar e oferecer soluções para os problemas de poluição dos oceanos e a extinção de espécies marinhas. Junte-se a nós na luta por um futuro sustentável.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li><a href="../paginas/sobre.html">Sobre Nós</a></li>
+            <li><a href="../paginas/registros.html">Ajude nos</a></li>
+            <li><a href="../paginas/contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
