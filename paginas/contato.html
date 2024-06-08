@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato | Aqua Wave</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script src="/js/main.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-REhsgKBk2qniP7Y1vq+w3ow8zDR2i18U19IKN5FNbBAb3Nk2H8mVZpWzAXcR0szKp9YpwEqi9Z/39e7z3ztS6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="/img/logo.jfif" type="image/x-icon">
+  </head>
+  <body>
+    <header style="background-image: url(../img/oceano3.webp)">
+      <div class="container">
+        <nav>
+          <a href="../paginas/sobre.html" class="logo">AquaWave</a>
+          <ul class="navegacao">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../paginas/sobre.html">Sobre</a></li>
+            <li><a href="../paginas/animais.html">Animais</a></li>
+            <li><a href="../paginas/poluicao.html">Poluição</a></li>
+            <li><a href="../paginas/ong.html">ONGS</a></li>
+            <li><a href="../paginas/registros.html">Registros</a></li>
+            <li><a href="../paginas/contato.html">Contato</a></li>
+          </ul>
+        </nav>
+        </nav>
+      </div>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-text">
+            <h1>Entre em Contato Conosco!</h1>
+          </div>
+        </div>
+      </section>
+    </header>
+
+  <main>
+    <section class="contato">
+      <div class="container">
+        <div class="contato-form">
+          <h3>Formulário de Contato</h3>
+          <form id="form-contato" method="get" action="/paginas/contato.html">
+            <div class="form-control">
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" name="nome" required />
+            </div>
+            <div class="form-control">
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+            <div class="form-control">
+              <label for="mensagem">Mensagem:</label>
+              <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+          </form>
+          <div id="mensagem-envio"></div>
+        </div>
+        <div class="contato-info">
+          <h3>Informações de Contato</h3>
+          <p>
+            Entre em contato conosco para mais informações sobre poluição
+            marinha e como podemos fazer a diferença juntos.
+          </p>
+          <ul>
+            <li>Email: contato@aquawave.com</li>
+            <li>Telefone: +55 11 98765-4321</li>
+            <li>
+              Endereço: Rua das Águas Claras, 1234, Cidade
+              Marinha, Oceania
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main> 
+
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>Ajude Nosso Oceano!</h3>
+          <p>
+            O AquaWave é dedicado a alertar, educar e oferecer soluções para os
+            problemas de poluição dos oceanos e a extinção de espécies marinhas.
+            Junte-se a nós na luta por um futuro sustentável.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h3>Links Úteis</h3>
+          <ul>
+            <li><a href="../paginas/sobre.html">Sobre Nós</a></li>
+            <li><a href="../paginas/registros.html">Ajude nos</a></li>
+            <li><a href="../paginas/contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
